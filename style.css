@@ -22,6 +22,10 @@ h1 {
   border-bottom: 1px solid #5D6063; /*thin grey solid line*/
 }
 
+h2 {
+  color: #5995DA;
+}
+
 p {
   padding: 20px 10px;  /* Vertical  Horizontal  (could also go clockwise starting from the top)*/
   margin-bottom: 50px;
@@ -33,13 +37,8 @@ p:first-of-type {
 }
 
 
-
 #github {
   text-decoration: none;
-}
-
-.about {
-  color: #5995DA
 }
 
 /* -------------------------------------------------------------------------- */
