@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #414141;    /* Dark gray */
+  background-color: white
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: circle;
+  padding: 20px;  /* Vertical  Horizontal  (could also go clockwise starting from the top)*/
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+h1 {
+  padding: 50px;
+  border-bottom: 1px solid #5D6063; /*thin grey solid line*/
+}
+
+p {
+  padding: 20px 10px;  /* Vertical  Horizontal  (could also go clockwise starting from the top)*/
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+p:first-of-type {
+  font-style: italic;
+}
+
+
+
+#github {
+  text-decoration: none;
+}
+
+.about {
+  color: #5995DA
+}
+
+/* -------------------------------------------------------------------------- */
+
+
+ul.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; /*dark grey*/
+}
+
+.nav-bar > li {
+  float: left
+  border-right: 1px solid #bbb;
+  display: inline;
+
+}
+
+.nav-bar > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* -------------------------------------------------------------------------- */
+
+a:link {
+  color: #325ea8; /*blue*/
+  text-decoration: none;
+}
+
+a:hover {
+  color: #326ba8; /*lighter blue*/
+  text-decoration: underline;
+}
+
+a:active {
+  color: #324ea8; /*darker blue*/
+}
+
+
+
+
+a:visited {
+  /* color: #5132a8; */
+  color: #6d418a;
+}
+
+a:visited:hover {
+  /* color: #533b94; */
+  color: #9056b8;
+}
+
+a:visited:active {
+  /* color: #482c94; */
+  color: #402652;
+}
