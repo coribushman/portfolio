@@ -6,44 +6,55 @@
     <link rel='stylesheet' href='style.css'/>
   </head>
   <body>
+  <div class="page">
 
-    <ul class="nav-bar">
+    <ul class="section nav-bar">
       <li><a href="index.html">Home</a></li>
       <li><a href="page1.html">Page 1</a></li>
       <li><a href="page2.html">Page 2</a></li>
       <li><a href="folder/page3.html">Page 3</a></li>
     </ul>
 
-    <h1>Cori's Portfolio</h1>
+    <h1 class="section title">Cori's Portfolio</h1>
 
-    <h2 class="about">About:</h2>
-    <p>I'm a Computer Science major currently studying at BYU. I enjoy spending time outside, hiking,
-    playing tennis, and playing the ukulele.</p>
+    <div class="section about-container">
+      <h2 class="about">About:</h2>
+      <p class="about-text">I'm a Computer Science major currently studying at BYU. I enjoy spending time outside, hiking,
+      playing tennis, and playing the ukulele.</p>
+    </div>
 
-    <hr>
 
-    <h2>Projects:<br></h2>
-    <ul>
-        <li>An app that generated family data when a used logged in and displayed information about each of
-        the user's family members. This incuded a map, a search feature, and a filter feature</li>
-        <li>An evil hangman game that changes it's word every time the user makes a guess so it is nearly
-           impossiblle to win</li>
-        <li>A spelling corrector that returns the "most similar" word of an entered incorrect or
-         incomplete word</li>
-      </ul>
+    <!-- <div class="accomplishments"> -->
+      <div class="section projects-container">
+        <h2 class="projects">Projects:<br></h2>
+        <ul class="project-list">
+            <li>An app that generated family data when a used logged in and displayed information about each of
+            the user's family members. This incuded a map, a search feature, and a filter feature</li>
+            <li>An evil hangman game that changes it's word every time the user makes a guess so it is nearly
+               impossiblle to win</li>
+            <li>A spelling corrector that returns the "most similar" word of an entered incorrect or
+             incomplete word</li>
+          </ul>
+      </div>
+      <div class="section experience-container">
+        <h2 class="experience">Experience:<br></h2>
+        <p class="experience-text">I've worked as a Research Assistant in Dr Payne's Bioinformatics Lab at BYU. This included writing
+            python methods to parse xml files from the WikiPathways Database. The research project I worked on
+            involved finding all proteins that interact with a given protein.</p>
+      </div>
+    <!-- </div> -->
 
-      <hr>
+    <div class="section contact">
+      <div class="contact-item contact-space"></div>
+      <div class="contact-item contact-info">
+        <h2>Contact:</h2>
+        <p>email: coribushman@gmail.com <br>
+        GitHub: <a id="github" href="https://github.com/coribushman" target='_blank'>
+          https://github.com/coribushman</a></p>
+      </div>
+      <div class="contact-item contact-space"></div>
+    </div>
 
-    <h2>Experience:<br></h2>
-    <p>I've worked as a Research Assistant in Dr Payne's Bioinformatics Lab at BYU. This included writing
-        python methods to parse xml files from the WikiPathways Database. The research project I worked on
-        involved finding all proteins that interact with a given protein.</p>
-
-    <hr>
-
-    <h2>Contact:</h2>
-    <p>email: coribushman@gmail.com <br>
-    GitHub: <a id="github" href="https://github.com/coribushman" target='_blank'>https://github.com/coribushman</a></p>
-
+  </div>
   </body>
 </html>
